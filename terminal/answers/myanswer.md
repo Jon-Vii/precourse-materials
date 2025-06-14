@@ -1,3 +1,5 @@
+## Terminal Basics
+
 ### What are the top 20 commands for mac Command Line Interface (CLI)?
 
 1. cd: changes the working directory you're currently in. Example: cd "path/to/directory/"
@@ -51,3 +53,45 @@ Zsh contains the features of Bash, but extends it to include: spell-checking, th
 
 ### What is the difference between Terminal, Console, Shell, and Command Line?
 To add to the previous answer, a Shell is an extension of the CLI environment adding new features and functionality.
+
+## GIT Basics
+
+### What is git?
+Git is version control, which is important.
+
+### What are the top commands? What do they do?
+1. git init: initializes existing directory as a Git repo.
+
+2. git clone [url]: retrieve a repository from a URL.
+
+3. git add [file]: adds a file to staging.
+
+4. git status: shows modified files in working directory, staged for next commit.
+
+5. git reset [file]: unstage a file while retaining the changes in working directory.
+
+6. git branch: list all branches
+
+7. git branch [branch-name]: creates new branch at current commit
+
+8. git checkout: switch to another branch and check it out into working directory.
+
+9. git merge [branch]: merge the specified branch history into current one.
+
+10. git push [alias] [branch]: transmit local branch change to remote repo branch
+
+11. git merge [alias]/[branch]: merge remote branch into current branch to update it
+
+12. git rebase [branch]: apply any commits of current branch ahead of specified one.
+
+13. git reset --hard [commit]:
+clear staging area, rewrite working tree from specified comit.
+
+14. git stash: Save modified and staged changes.
+
+15. git rm [file]: delete file from project and stage removal from commit
+
+16. git mv [existing-path] [new-path]
+
+### How do you open a PR?
+You can open a PR for a branch on Github/Gitlabs, it's quite intuitive.
